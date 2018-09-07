@@ -1,8 +1,15 @@
 /*webkit-sassui-line Start*/
-$webkit-sassui-line-options: () !default;
+$webkit-sassui-line-options: (
+  value: 0.69px
+) !default;
 
 .webkit-sassui-line {
-  border-bottom: 0.69px solid;
+  $value: map-get(
+    $map: $webkit-sassui-line-options,
+    $key: value
+  );
+
+  border-bottom: $value solid;
   line-height: 0;
   font-size: 0;
   overflow: hidden;
