@@ -1,0 +1,34 @@
+/*webkit-sassui-line Start*/
+.webkit-sassui-line {
+  border-bottom: 0.69px solid;
+  line-height: 0;
+  font-size: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+/*webkit-sassui-line End*/
+.c-red {
+  color: #f00;
+}
+
+.c-gray {
+  color: #ccc;
+}
+
+.c-green {
+  color: #080;
+}
+
+.blank-20 {
+  height: 20px;
+}
+
+.webkit-sassui-line {
+  margin-bottom: 20px;
+}
+
+.test-webkit-sassui-line {
+  padding: 40px;
+  border: 1px solid red;
+}

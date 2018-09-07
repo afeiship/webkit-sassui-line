@@ -1,0 +1,24 @@
+@import "../dist/webkit-sassui-line.scss";
+
+.c-red {
+  color: #f00;
+}
+
+.c-gray {
+  color: #ccc;
+}
+
+.c-green {
+  color: #080;
+}
+
+.blank-20 {
+  height: 20px;
+}
+.webkit-sassui-line {
+  margin-bottom: 20px;
+}
+.test-webkit-sassui-line {
+  padding: 40px;
+  border: 1px solid red;
+}
