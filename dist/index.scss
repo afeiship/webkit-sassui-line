@@ -1,0 +1,28 @@
+/*!
+ * name: @jswork/wsui-layout-fixed-sidebar
+ * description: Sassui for layout fixed sidebar.
+ * homepage: https://github.com/afeiship/wsui-layout-fixed-sidebar
+ * version: 1.0.0
+ * date: 2021-03-13 12:20:14
+ * license: MIT
+ */
+
+/*wsui-layout-fixed-sidebar Start*/
+
+@mixin wsui-layout-fixed-sidebar($in-width: 200px) {
+  > .is-sidebar {
+    width: $in-width;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  &[data-placement="left"] {
+    margin-left: $in-width;
+  }
+
+  &[data-placement="right"] {
+    margin-right: $in-width;
+  }
+}
+/*wsui-layout-fixed-sidebar End*/

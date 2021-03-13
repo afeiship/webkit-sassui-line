@@ -1,0 +1,23 @@
+@import "../src/index.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.test-wsui-layout-fixed-sidebar {
+  @include wsui-layout-fixed-sidebar(250px);
+  height: 400px;
+  background: #eee;
+  .is-sidebar,
+  .is-main {
+    height: 400px;
+  }
+
+  > .is-sidebar {
+    background: lightgreen;
+  }
+  > .is-main {
+    background: orange;
+  }
+}

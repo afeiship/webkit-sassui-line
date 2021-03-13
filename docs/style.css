@@ -1,0 +1,39 @@
+/*wsui-layout-fixed-sidebar Start*/
+/*wsui-layout-fixed-sidebar End*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.test-wsui-layout-fixed-sidebar {
+  height: 400px;
+  background: #eee;
+}
+
+.test-wsui-layout-fixed-sidebar > .is-sidebar {
+  width: 250px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.test-wsui-layout-fixed-sidebar[data-placement="left"] {
+  margin-left: 250px;
+}
+
+.test-wsui-layout-fixed-sidebar[data-placement="right"] {
+  margin-right: 250px;
+}
+
+.test-wsui-layout-fixed-sidebar .is-sidebar,
+.test-wsui-layout-fixed-sidebar .is-main {
+  height: 400px;
+}
+
+.test-wsui-layout-fixed-sidebar > .is-sidebar {
+  background: lightgreen;
+}
+
+.test-wsui-layout-fixed-sidebar > .is-main {
+  background: orange;
+}
