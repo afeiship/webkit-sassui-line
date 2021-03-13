@@ -1,6 +1,6 @@
 {
   "name": "@jswork/wsui-layout-fixed-sidebar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sassui for layout fixed sidebar.",
   "homepage": "https://github.com/afeiship/wsui-layout-fixed-sidebar",
   "author": {
@@ -30,5 +30,13 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "keywords": [
+    "webkit",
+    "sassui",
+    "layout",
+    "fixed",
+    "sidebar",
+    "aside"
+  ]
 }
